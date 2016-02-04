@@ -26,7 +26,7 @@ public class ThreadDemo implements Runnable {
 
 	public static void main(String[] args) throws Exception {
 		Thread t = new Thread(new ThreadDemo());
-		// this will call run() function
+		// this line will start function
 		t.start();
 	}
 } 
